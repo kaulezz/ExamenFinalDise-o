@@ -1,0 +1,37 @@
+
+@startuml
+class models.Elector{
+name:string
+dni:string
+lastname:string
+}
+class models.Cabin{
+location:string
+code:integer
+
+}
+class models.Candidate{
+name:string
+lastname:string
+lastname:string
+}
+class models.Voto{
+Contador:integer
+date:date
+}
+models.Elector "*" --> "1" models.Cabin
+models.Voto "*" *-- "1" models.Candidate
+models.Cabin "1" --* "*" models.Voto
+class controllers.ElectorController{
+chek()
+}
+class controllers.CandidateController{
+list()
+}
+class controllers.VotoController{
+check()
+}
+class controllers.CabineController{
+list()
+}
+@enduml
