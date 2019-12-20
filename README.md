@@ -1,3 +1,6 @@
+Se uso single responsabilitu en la database/migrations, el patron de diseño factory en los modelos y decorate en las semillas
+Respecto a los Requisitos no funcionales elegiria laravel por que es mas optimo en web por el MVC
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
